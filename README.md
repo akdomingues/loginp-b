@@ -29,13 +29,11 @@ This project is a modern and responsive login interface built with pure HTML5 an
 
 ## 🗃️ File Structure
 
-|----------------|----------------------------------------------|
 | File           | Purpose                                      |
 |----------------|----------------------------------------------|
 | `index.html`   | HTML structure of the login interface        |
 | `styles.css`   | CSS styles defining appearance and layout    |
 | `img/fundo.png`| Background image used for visual effect      |
-|----------------|----------------------------------------------|
 
 ---
 
