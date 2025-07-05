@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+/* Corpo do site */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("img/fundo.png");
+  background-position: center;
+  background-size: cover;
+}
+
+/* Main */
+.container {
+  width: 320px;
+  padding: 20px 30px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+/* Titulo */
+.container h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+/* Caixa de email */
+.caixa-de-email {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.caixa-de-email input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  font-size: 16px;
+  color: white;
+  padding: 10px 45px 10px 20px;
+  border-radius: 40px;
+}
+
+.caixa-de-email input::placeholder {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.caixa-de-email i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: white;
+}
+
+/* Caixa de senha */
+.caixa-de-senha {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.caixa-de-senha input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 45px 10px 20px;
+  outline: none;
+  font-size: 16px;
+  color: white;
+  padding: 10px 45px 10px 20px;
+  border-radius: 40px;
+}
+
+.caixa-de-senha input::placeholder {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.caixa-de-senha i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: white;
+}
+
+/* Esqueceu a senha */
+.lembrar-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin: 0 0 20px;
+}
+
+.lembrar-me label {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  gap: 4px;
+}
+
+.lembrar-me label input {
+  accent-color: #fff;
+}
+
+.lembrar-me a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.lembrar-me a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
+}
+
+/* Botão de login (melhorado) */
+.login {
+  width: 100%;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+/* Link de registro */
+.link-de-registro {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.link-de-registro a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link-de-registro a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
+}
+
+/* Checkbox */
+.lembrar-me label input {
+  width: 16px;
+  height: 16px;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.lembrar-me label input:checked {
+  background-color: #fff;
+}
+
+.lembrar-me label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* DMS */
